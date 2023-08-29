@@ -1,24 +1,24 @@
-h1{ font-family: monospace; color: rgb(59, 119, 174);}
+h1{ font-family: monospace; color: rgb(210, 7, 129);}
 
-.container{width: 500px;
+.container{
+width: 500px;
 border-radius: 10px;
 display: flex;
-flex-direction: column;
-align-items: center;
 justify-content: center;
+align-items: center;
 flex-wrap: wrap;
 }
 
 .box {
 width: 150px;
 height: 150px;
-background-color: rgb(137, 230, 230);
+background-color: rgb(202, 126, 183);
 margin: 1px;
 transition :all 0.5s;
-border : 2px soild darkkhaki ;
-box-shadow: 10px 10px 4px rgb(22, 21, 21);
+border : 2px soild rgb(181, 84, 150) ;
+box-shadow: 4px 3px 4px rgb(22, 21, 21);
 }
-.box:hover{ background-color: rgb(130, 190, 184); }
+.box:hover{ background-color: rgb(195, 41, 138); }
 body {
 display: flex;
 flex-direction: column;
